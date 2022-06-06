@@ -1,0 +1,22 @@
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.box1{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+.box2{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
