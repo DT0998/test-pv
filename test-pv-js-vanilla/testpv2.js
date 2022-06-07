@@ -13,7 +13,10 @@ var player = [
    }
 ]
 var byscore = player.slice(0);
-byscore.sort(function(a,b){
+// sort handle function
+function sortHandle(a,b){
     return b.score - a.score
-})
+}
+// sort method array
+byscore.sort(sortHandle)
 console.log(byscore)
