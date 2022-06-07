@@ -34,16 +34,20 @@
 // console.log(newPosts);
 
 // recursion prime number
-function PrimeNumber(num) {
-  if (num === 2) return true;
-  if (num < 2 || num % 2 === 0) return false;
-  for (let i = 3; i * i <= num; i += 2) {
-    if (num % i === 0) return false;
-  }
-  return true;
+function PrimeNumber(number, divisor = 2) {
+  // 2 * 2 = 4 > 5 lần 1
+  // 3 * 3 = 6 > 5 lần 2 => true || prime number
+ if(divisor * divisor > number) {
+   return true
+ }
+//  chia hết là số hợp số || composite number
+ if(number % divisor === 0){
+   return false
+ }
+ return PrimeNumber(number,divisor + 1)
 }
 
-console.log(PrimeNumber(6));
+console.log(PrimeNumber(5));
 
 // let vs var
 // var
