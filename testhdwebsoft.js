@@ -1,6 +1,6 @@
 "closer";
 "let var";
-"recursion integer";
+"recursion prime number";
 "reduce array to obj";
 "useeffect";
 "usememo";
