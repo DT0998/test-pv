@@ -11,14 +11,14 @@ function UseMemo() {
   //     console.log("mount plusfive normal");
   //     return num + 5;
   // };
-  // func usecallback
+  // func khi dùng usecallback
   const plusFive = useCallback(() => {
     console.log("mount plusfive callback");
     return num + 5;
   }, [num]);
   // gọi function bth
-  const numPlusFive = plusFive(num);
-  // gọi function vs dùng usememo hook
+//   const numPlusFive = plusFive(num);
+  // gọi function khi dùng usememo hook
   // const numPlusFive = useMemo(()=> plusFive(num),[num])
 
   const lightHandle = () => {
