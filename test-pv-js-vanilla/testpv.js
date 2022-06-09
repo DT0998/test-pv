@@ -8,9 +8,9 @@
 // console.log(secondmax)
 
 // convert obj to array
-// let obj = { 1: "trieu", 2: "linh", 3: "thanh" };
-// let result = Object.entries(obj);
-// console.log(result);
+let obj = { id: 1, name: "trieu" };
+let result = Object.entries(obj);
+console.log(result);
 
 // console.log("1" - 1);
 
@@ -34,20 +34,20 @@
 // console.log(secondLargestNum);
 
 // sum array object
-const age = [
-  {
-    age: 10,
-  },
-  {
-    age: 20,
-  },
-  {
-    age: 30,
-  },
-];
-const arr = Object.values(age);
-console.log(arr);
-const SumAge = arr.reduce((previousAge, currentAge) => {
-  return previousAge + currentAge.age;
-}, 0);
-console.log(SumAge);
+// const age = [
+//   {
+//     age: 10,
+//   },
+//   {
+//     age: 20,
+//   },
+//   {
+//     age: 30,
+//   },
+// ];
+// const arr = Object.values(age);
+// console.log(arr);
+// const SumAge = arr.reduce((previousAge, currentAge) => {
+//   return previousAge + currentAge.age;
+// }, 0);
+// console.log(SumAge);

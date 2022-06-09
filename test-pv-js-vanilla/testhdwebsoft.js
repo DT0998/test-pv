@@ -21,13 +21,13 @@
 //     name: "Front end",
 //   },
 //   {
-//     id: 4,
+//     id: 2,
 //     name: "Front end",
 //   },
 // ];
 
-// function reducer(acc,cur){
-//     return {...acc,[cur.id] : cur}
+// function reducer(prev,cur){
+//     return {...prev,[cur.id] : cur}
 // }
 
 // let newPosts = posts.reduce(reducer,{})
@@ -47,7 +47,7 @@ function PrimeNumber(number, divisor = 2) {
  return PrimeNumber(number,divisor + 1)
 }
 
-console.log(PrimeNumber(5));
+// console.log(PrimeNumber(5));
 
 // let vs var
 // var
