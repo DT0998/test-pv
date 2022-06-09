@@ -1,25 +1,9 @@
-const posts = [
-//   {
-//     id: 1,
-//     name: "Front end",
-//   },
-//   {
-//     id: 2,
-//     name: "back  end",
-//   },
-//   {
-//     id: 3,
-//     name: "Front end",
-//   },
-//   {
-//     id: 2,
-//     name: "Front end",
-//   },
-// ];
-
-// function reducer(prev,cur){
-//     return {...prev,[cur.id] : cur}
-// }
-
-// let newPosts = posts.reduce(reducer,{})
-// console.log(newPosts);
+let a = 10;
+function SumFive(number,callback){
+     let sum = number + 5;
+     callback(sum);
+}
+function CheckSumCallBack(sum){
+    console.log("sum is",sum);
+}
+SumFive(a,CheckSumCallBack);

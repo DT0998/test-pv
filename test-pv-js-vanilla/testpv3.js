@@ -9,6 +9,9 @@
 // console.log(secondmin)
 
 // đảo ngược string
+// let str = "Welcome to this Javascript Guide!";
+// function reverse
+
 
 // cộng 2 số ra target
 // function twoSum(nums, target) {
@@ -27,3 +30,13 @@
 // console.log(twoSum(numbers, 9));
 
 
+// callback function
+// let a = 10;
+// function SumFive(number,callback){
+//      let sum = number + 5;
+//      callback(sum);
+// }
+// function CheckSumCallBack(sum){
+//     console.log("sum is",sum);
+// }
+// SumFive(a,CheckSumCallBack);
