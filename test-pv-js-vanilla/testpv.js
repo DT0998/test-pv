@@ -8,7 +8,7 @@
 // console.log(secondmax)
 
 // convert obj to array
-let obj = { id: 1, name: "trieu" };
+let obj = { id: 1, name: "trieu",model:"i8" };
 let result = Object.entries(obj);
 console.log(result);
 
