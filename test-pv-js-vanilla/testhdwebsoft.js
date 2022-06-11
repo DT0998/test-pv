@@ -71,6 +71,6 @@ function PrimeNumber(number, divisor = 2) {
 // testLetLoop()
 
 // hoisting
-// var a = 10
-// var a = 20
+// var a = 10;
+// var a = 20;
 // console.log(a);

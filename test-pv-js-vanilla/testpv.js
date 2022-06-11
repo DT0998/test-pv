@@ -53,3 +53,5 @@ const SumAge = arr.reduce((previousAge, currentAge) => {
   return previousAge + currentAge.age;
 }, 0);
 console.log(SumAge);
+
+
