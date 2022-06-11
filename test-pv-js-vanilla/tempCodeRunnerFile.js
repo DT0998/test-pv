@@ -1,9 +1,6 @@
-let a = 10;
-function SumFive(number,callback){
-     let sum = number + 5;
-     callback(sum);
-}
-function CheckSumCallBack(sum){
-    console.log("sum is",sum);
-}
-SumFive(a,CheckSumCallBack);
+const isPrime = num => {
+  const boundary = Math.floor(Math.sqrt(num));
+  for (let i = 2; i <= boundary; i++) if (num % i === 0) return false;
+  return num >= 2;
+};
+console.log(isPrime(10));
