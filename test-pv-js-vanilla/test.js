@@ -11,21 +11,21 @@
 // myAsync()
 
 // số nguyên tố
-const isPrime = (num) => {
- for(let i = 2;i<num;i++){
-  if(num % i === 0){
-    return false
-  }
-  return num > 1
- }
-};
-console.log(isPrime(10));
+// const isPrime = (num) => {
+//  for(let i = 2;i<num;i++){
+//   if(num % i === 0){
+//     return false
+//   }
+//   return num > 1
+//  }
+// };
+// console.log(isPrime(10));
 
-// findallincrease
-// let result = [];
-// let index = 0;
 
+// findallincrease must fix
 // const findAllIncreasingSubArr = (arr) => {
+//   let result = [];
+//   let index = 0;
 //   do {
 //     result.push(arr[index]);
 //     for (let i = index + 1; i < arr.length; i++) {
@@ -37,7 +37,6 @@ console.log(isPrime(10));
 //       }
 
 //       if (result.length > 2) {
-//         console.log(result);
 //         result = [];
 //       }
 //     }
@@ -45,4 +44,29 @@ console.log(isPrime(10));
 //   } while (index < arr.length);
 // };
 
-// findAllIncreasingSubArr([1, 2, 3, -5, -10, 5, 10]);
+// const array = [1, 2, 3, -5, -10, 5, 10]
+// console.log(findAllIncreasingSubArr(array));
+
+
+// logest common prefix
+// let longestCommonPrefix = function(strs) {
+//   let size = strs.length;
+//   if(size === 0){
+//       return "";
+//   }
+//   if(size === 1){
+//       return strs[0]
+//   }
+//   strs.sort();
+//   let end = Math.min(strs[0].length,strs[size - 1].length);
+//   let i = 0;
+//   while(i < end && strs[0][i] === strs[size - 1][i]){
+//       i++
+//   }
+//       let pre = strs[0].substring(0,i)
+//       return pre
+  
+// };
+// const string = ["flower","flow","flight"]
+// console.log(longestCommonPrefix(string));
+// logest common postfix

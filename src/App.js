@@ -1,12 +1,15 @@
-import './App.css';
+import React from 'react';
+import './App.css'
 import UseEffect from './components/UseEffect';
 import UseMemo from './components/UseMemo';
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
+      <div className='app'>
      <UseMemo/>
-    </div>
+      </div>
+    </React.Fragment>
   );
 }
 

@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+import classes from './UseEffect.module.css'
+
+const tabs = ['posts','comments','albums']
 
 function UseEffect() {
   // two way binding
@@ -28,12 +31,19 @@ function UseEffect() {
 
   return (
     <React.Fragment>
+      <input value={title} onChange={twoWayBindingHandle} />
+      {tabs.map((tab)=>(
+        <button>
+          {tab}
+        </button>
+      ))}
+      <div className={classes.flex}>
       <ul>
         {posts.map((post) => (
           <li key={post.id}>{post.title}</li>
         ))}
       </ul>
-      <input value={title} onChange={twoWayBindingHandle} />
+      </div>
     </React.Fragment>
   );
 }

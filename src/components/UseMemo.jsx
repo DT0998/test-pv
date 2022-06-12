@@ -38,13 +38,14 @@ function UseMemo() {
         <div>
           {/* <h1>Without useMemo</h1> */}
           <h1>With useEffect</h1>
+          <button onClick={toggleHandle}>Toggle</button>
           <h2>
             {/* Current number: {num}, */}
             {/* Plus five: {numPlusFive} */}
             {/* usecallback component */}
             {/* <SomeComp someFunc={plusFive} /> */}
-            {toggle && <UseEffect/> }
           </h2>
+          {toggle && <UseEffect/> }
           <div className={classes.button_container}>
             {/* <button
               onClick={() => {
@@ -53,7 +54,7 @@ function UseMemo() {
             >
               Update Number{" "}
             </button> */}
-            <button onClick={toggleHandle}>Toggle</button>
+         
             {/* <button onClick={lightHandle}> Toggle the light </button> */}
           </div>
         </div>
