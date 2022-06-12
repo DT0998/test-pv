@@ -6,9 +6,7 @@ import UseMemo from './components/UseMemo';
 function App() {
   return (
     <React.Fragment>
-      <div className='app'>
      <UseMemo/>
-      </div>
     </React.Fragment>
   );
 }
