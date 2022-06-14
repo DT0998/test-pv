@@ -70,3 +70,13 @@
 // const string = ["flower","flow","flight"]
 // console.log(longestCommonPrefix(string));
 // logest common postfix
+
+
+
+
+// number years to centure roman
+
+function centuryFromYear(year) {
+    return Math.ceil(year / 100)
+}
+console.log(centuryFromYear(2000));
