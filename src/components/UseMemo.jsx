@@ -8,7 +8,7 @@ function UseMemo() {
   // const [num, setNum] = useState(0);
   const [light, setLight] = useState(true);
   const [count,setCount] = useState(60)
-  const countRef = useRef()
+  const countRef = useRef(0)
   const prevCount = useRef()
   console.log(countRef);
 
