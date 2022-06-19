@@ -67,3 +67,34 @@
 // };
 
 // console.log(romanToInt("VII"));
+
+// Simple Array Sum
+// const arr = [1,2,3,4,10,11]
+
+// function reducer(prev,cur){
+//    return prev + cur
+// }
+// const SimpleArraySum = arr.reduce(reducer,0)
+// console.log(SimpleArraySum);
+
+// Max Consecutive Ones
+
+// convert object to output with reduce
+
+// let humans = [
+//   { id: 1, name: "A", gender: "nam" },
+//   { id: 2, name: "B", gender: "nam" },
+//   { id: 3, name: "C", gender: "nu" },
+//   { id: 4, name: "D", gender: "nu" },
+//   { id: 5, name: "E", gender: "nam" },
+// ];
+
+// convert name + id and filter nam
+// let output = [];
+// humans.forEach((human) => {
+//   if (human.gender === "nu") {
+//     let person = { human: human.name + human.id, gender: human.gender };
+//     output.push(person);
+// }
+// });
+// console.log(output);
