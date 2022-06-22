@@ -76,7 +76,8 @@
 
 // number years to centure roman
 
-function centuryFromYear(year) {
-    return Math.ceil(year / 100)
-}
-console.log(centuryFromYear(2000));
+// function centuryFromYear(year) {
+//     return Math.ceil(year / 100)
+// }
+// console.log(centuryFromYear(2000));
+
