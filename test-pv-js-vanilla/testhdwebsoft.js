@@ -7,31 +7,31 @@
 "usecallback";
 
 // reduce array to obj
-// const posts = [
-//   {
-//     id: 1,
-//     name: "Front end",
-//   },
-//   {
-//     id: 2,
-//     name: "back  end",
-//   },
-//   {
-//     id: 3,
-//     name: "Front end",
-//   },
-//   {
-//     id: 2,
-//     name: "Front end",
-//   },
-// ];
+const posts = [
+  {
+    id: 1,
+    name: "Front end",
+  },
+  {
+    id: 2,
+    name: "back  end",
+  },
+  {
+    id: 3,
+    name: "Front end",
+  },
+  {
+    id: 2,
+    name: "Front end",
+  },
+];
 
-// function reducer(prev,cur){
-//     return {...prev,[cur.id] : cur}
-// }
+function reducer(prev,cur){
+    return {...prev,[cur.id] : cur}
+}
 
-// let newPosts = posts.reduce(reducer,{})
-// console.log(newPosts);
+let newPosts = posts.reduce(reducer,{})
+console.log(newPosts);
 
 // recursion prime number
 function PrimeNumber(number, divisor = 2) {

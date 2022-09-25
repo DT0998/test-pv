@@ -6,10 +6,23 @@
 // local storage
 // localStorage.setItem('name','trieu')
 
-// console.log(localStorage.getItem('name')); 
+// console.log(localStorage.getItem('name'));
 
 // localStorage.removeItem('name')
 // localStorage.clear();
 
 // session storage
 // sessionStorage.setItem('job','it')
+
+const array = ["a", "b", "c"];
+console.log({ ...array });
+
+// const getApiTest = async () => {
+//   try {
+//     const response = await fetch("https://jsonplaceholder.typicode.com/todos");
+//     const data = await response.json();
+//     console.log(data);
+//   } catch (error) {}
+// };
+
+// getApiTest();
