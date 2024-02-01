@@ -80,4 +80,3 @@
 //     return Math.ceil(year / 100)
 // }
 // console.log(centuryFromYear(2000));
-
