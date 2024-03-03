@@ -32,7 +32,7 @@ isPrime(6);
 // console.log(isPrime(5));
 
 
-// findallincrease must fix
+// find all increase must fix
 // const findAllIncreasingSubArr = (arr) => {
 //   let result = [];
 //   let index = 0;
@@ -58,7 +58,7 @@ isPrime(6);
 // console.log(findAllIncreasingSubArr(array));
 
 
-// logest common prefix
+// longest common prefix
 // let longestCommonPrefix = function(strs) {
 //   let size = strs.length;
 //   if(size === 0){
@@ -79,14 +79,15 @@ isPrime(6);
 // };
 // const string = ["flower","flow","flight"]
 // console.log(longestCommonPrefix(string));
-// logest common postfix
 
-
-
+// longest common postfix
 
 // number years to centure roman
 
+// calculate the century of a year
 // function centuryFromYear(year) {
 //     return Math.ceil(year / 100)
 // }
 // console.log(centuryFromYear(2000));
+
+
